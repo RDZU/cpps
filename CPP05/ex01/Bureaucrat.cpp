@@ -6,7 +6,7 @@
 /*   By: razamora <razamora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/06 18:50:14 by razamora          #+#    #+#             */
-/*   Updated: 2025/09/20 20:01:17 by razamora         ###   ########.fr       */
+/*   Updated: 2025/09/20 21:01:43 by razamora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,7 @@ void Bureaucrat::incrementGrade() {
 		throw GradeTooHighException();
 	this->grade--;
 }
+
 void Bureaucrat::decrementGrade() {
 	if (this->grade >= 150)
 		throw GradeTooLowException();
@@ -73,6 +74,3 @@ std::ostream &operator<<(std::ostream &out, const Bureaucrat &b) {
 	out << b.getName() << ", bureaucrat grade " << b.getGrade() << std::endl;
 	return out;
 }
-
-
-

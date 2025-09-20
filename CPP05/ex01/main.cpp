@@ -5,14 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: razamora <razamora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/06 18:50:20 by razamora          #+#    #+#             */
-/*   Updated: 2025/09/20 19:47:43 by razamora         ###   ########.fr       */
+/*   Created: 2025/09/20 21:06:05 by razamora          #+#    #+#             */
+/*   Updated: 2025/09/20 21:19:56 by razamora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
 #include "Bureaucrat.hpp"
-
-
 
 int main (void)
 {
